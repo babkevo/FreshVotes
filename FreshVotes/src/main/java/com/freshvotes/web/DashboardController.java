@@ -1,8 +1,7 @@
-package com.freshvotes;
+package com.freshvotes.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class DashboardController 
@@ -10,5 +9,10 @@ public class DashboardController
    @RequestMapping("/")
    public String rootView() {
 	   return "index";
+   }
+   
+   @RequestMapping("/dashboard")
+   public String dashboard() {
+       return "dashboard";
    }
 }
