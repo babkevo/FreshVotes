@@ -3,7 +3,7 @@ package com.freshvotes.domain;
 import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
 
-@Entity
+@Entity  // This tells Hibernate to make a table out of this class
 public class Vote {
 	
 	private VoteId pk;
