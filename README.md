@@ -1,1 +1,2 @@
 # FreshVotes
+Fresh Votes is a web application that has been developed using Java and the Spring Boot framework. It follows the MVC (Model-View-Controller) architecture and utilizes Spring Security for authentication and authorization. The application leverages Spring MVC to handle the Java web development aspects. Users can submit new feature requests for applications through Fresh Votes, and the platform facilitates other users in expressing their opinions by upvoting or downvoting these proposed features.
